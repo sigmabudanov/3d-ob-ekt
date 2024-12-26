@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклад створення 3-D ефекту з допомогою CSS</title>
+    <style>
+        body {
+            color: #000080;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .тінь {
+            color: #B0B0B0;
+            text-align: right;
+            font: lighter 220px "Times New Roman", Times, serif;
+            margin-top: 30px;
+            line-height: 270px;
+        }
+
+        .основа {
+            color: red;
+            font: bold 220px "Times New Roman", Times, serif;
+            margin-top: -230px;
+            line-height: 250px;
+        }
+
+        .п1о1 {
+            color: black;
+            margin-top: -130px;
+            font-weight: normal;
+            font-size: 65px;
+            line-height: 65px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .п2о2 {
+            color: green;
+            margin-top: 30px;
+            font-weight: normal;
+            font-size: 35px;
+            line-height: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>Приклад накладення текстів один на одного, реалізований за допомогою тегів div і CSS. В результаті отримуємо 3-D ефект.</p>
+    <center>
+        <table width="600" border="3" cellspacing="2" cellpadding="1">
+            <tr>
+                <td align="center" valign="top">
+                    <div class="тінь">Ми</div>
+                    <div class="основа">Ми</div>
+                    <div class="п1о1">зробили це без всякої графіки!</div>
+                    <div class="п2о2">використовуючи тільки каскадні таблиці стилів</div>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
